@@ -64,4 +64,4 @@ typings/
 *.tsbuildinfo
 
 # Database
-config/Keys.ts
+/config
