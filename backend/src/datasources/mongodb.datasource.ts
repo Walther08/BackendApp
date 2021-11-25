@@ -1,10 +1,11 @@
 import {inject, lifeCycleObserver, LifeCycleObserver} from '@loopback/core';
 import {juggler} from '@loopback/repository';
+import { Keys } from '../config/keys';
 
 const config = {
   name: 'mongodb',
   connector: 'mongodb',
-  url: 'mongodb+srv://dbWalther:dbwalther123@clusterwebdevelop.ah8ep.mongodb.net/myFirstDatabase?retryWrites=true&w=majority',
+  url: Keys.database,
   host: '',
   port: 0,
   user: '',
